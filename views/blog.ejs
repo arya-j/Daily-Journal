@@ -1,0 +1,21 @@
+<%- include("partials/header.ejs") %>
+
+<div class="blog">
+  <% if (arr.length > 0) { %>
+    <% arr.forEach((item) => { %>
+      <div style="font-family: 'Open Sans', sans-serif;" class="p-5 rounded-3">
+        <h2 class="mb-3" style="font-family: 'Merriweather', serif;"><%= item.id %>. <%= item.heading %></h2>
+        <p class="lead mb-1" style="font-family: 'Open Sans', sans-serif;">
+          <%= item.body %>
+        </p>
+      </div>        
+    <% }) %>
+  <% } else { %>
+    <div class="no-post">
+        <p class="lead py-5" style="font-family: 'Open Sans', sans-serif;">No journals yet.</p>
+    </div>
+    
+  <% } %>  
+</div>
+
+<%- include("partials/footer.ejs") %>

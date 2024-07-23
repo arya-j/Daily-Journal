@@ -1,0 +1,20 @@
+<%- include("partials/header.ejs") %>
+
+<div class="home write align-items-center justify-content-center row md-5">
+  <form class="home" method="POST" action="/blog">
+    <h2 class="mb-5 pb-2" style="font-family: 'Merriweather', serif;">How was your day?</h2>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label" style="font-family: 'Open Sans', sans-serif;">Heading</label>
+      <input type="text" class="form-control ftext" id="exampleInputEmail1" name="htext" />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label" style="font-family: 'Open Sans', sans-serif;">Describe your day</label>
+    </div>
+    <div class="input-group mb-4">
+      <textarea class="form-control" aria-label="With textarea" name="btext"></textarea>
+    </div>
+    <button type="submit" class="btn btn-light ftext px-3" name="action" value="submit" style="font-family: 'Open Sans', sans-serif;">Submit</button>
+  </form>
+</div>
+
+<%- include("partials/footer.ejs") %>

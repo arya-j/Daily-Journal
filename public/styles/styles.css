@@ -1,0 +1,79 @@
+body, html{
+    background-color: #2B2B2B;
+}
+
+header{
+    background-color: #2B2B2B;
+}
+
+h2{
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+.home {
+    background-color: #2B2B2B;
+    color: white;
+}
+
+.blog{
+    
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #2B2B2B;
+    color: white;
+}
+
+.no-post{
+    height: 75vh;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #2B2B2B;
+    color: white;
+
+}
+
+.wrapper{
+    display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.write{
+    height: 80vh;
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 100.8%;    
+}
+
+.journal{
+    height: 80vh;    
+    object-fit: cover;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2B2B2B;
+}
+
+.ftext{
+    font-size: smaller;
+    color: #EEEDEB;
+    font-family: "Open Sans", sans-serif;
+}
+
+.htext{
+    font-family: "Merriweather", serif;
+    color: #EEEDEB;
+}
+
+.cursive{
+    font-family: "Allura", cursive;
+}
+
+.logo{
+    height: 40%;
+    padding-right: .5rem;
+}
+
+/* To adjust the fit of the background in the future, change the background-size property */
+
+  
